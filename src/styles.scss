@@ -1,1 +1,8 @@
 @import 'assets/css/partials/includes';
+
+@import '~@angular/material/theming';
+@include mat-core();
+
+$ngMaterial-primary: mat.define-palette(mat.$deep-purple-palette, A400);
+$ngMaterial-accent: mat.define-palette(mat.$amber-palette);
+$ngMaterial-warn: mat.define-palette(mat.$red-palette);
